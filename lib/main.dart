@@ -263,13 +263,13 @@ class MainSceneState extends State<MainScene> {
   void initState() {
     super.initState();
 
-    _tabSelection = new TabBarSelection(index: 0);
+    _tabSelection = new TabBarSelection(index: 0, maxIndex: 2);
   }
 
   Widget build(BuildContext context) {
     return new CoordinateSystem(
       systemSize: new Size(320.0, 320.0),
-      child:new DefaultTextStyle(
+      child: new DefaultTextStyle(
         style: new TextStyle(fontSize:20.0),
         child: new Stack(<Widget>[
           new MainSceneBackground(),

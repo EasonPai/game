@@ -95,7 +95,7 @@ class LevelLabel extends GameObject {
       "L E V E L $level",
       new TextStyle(
         textAlign: TextAlign.center,
-        color:new Color(0xffffffff),
+        color: new Color(0xffffffff),
         fontSize: 24.0,
         fontWeight: FontWeight.w600
       ));
